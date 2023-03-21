@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "vcavalcanti-vorx-terraform"
+    bucket = "viniciusarjonas-vorx-terraform"
     key    = "jenkins-server.tfstate"
     region = "us-east-1"
   }
